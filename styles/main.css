@@ -92,13 +92,14 @@ p {
 @media only screen and (min-width: 1200px) {
   body {
     font-size: 1.2vh;
+    max-width: 1440px;
   }
 
   .page-wrapper {
     width: 100%;
     max-width: 1200px;
   }
-
+  
   .page-wrapper>.cards-wrapper {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
