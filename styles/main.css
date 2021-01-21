@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 1.1vh;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -89,12 +89,6 @@ p {
   box-shadow: 5px 10px 15px 0px rgba(0, 0, 5, 0.1);
 }
 
-@media only screen and (max-width: 1200px) {
-  body {
-    font-size: 1.1vh;
-  }
-}
-
 @media only screen and (min-width: 1200px) {
   body {
     font-size: 1.3vh;
@@ -132,3 +126,4 @@ p {
     grid-column: 3 / 4;
   }
 }
+
